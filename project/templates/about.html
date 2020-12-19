@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<head> <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style_about.css') }}"> </head>
+
+<div class="container"> 
+
+<body>
+
+<div class="about-section">
+  <h1>BrainFit</h1>
+  <p>An educational platform for people who are passionate about Physics</p>
+</div>
+
+<h2 style="text-align:center;color:purple" >Start Learning Today!</h2>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="containers">
+        <h2>Physics Concept Builder</h2>
+        <p>Start learning immediately on the concept builder page!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="containers">
+        <h2>Quizzes</h2>
+        <p>Test your knowledge gained by taking the free quizzes</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="containers">
+        <h2>Q & A</h2>
+        <p>A friendly community environment to discuss with other learners and experts</p>
+      </div>
+    </div>
+  </div>
+ 
+
+</body>
+</div>
+
+{% endblock content %}
+
